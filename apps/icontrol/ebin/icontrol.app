@@ -1,0 +1,9 @@
+{application,icontrol,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{icontrol_app,[]}},
+              {env,[]},
+              {modules,[icontrol_app,icontrol_logic,icontrol_ofsh,
+                        icontrol_sup,iof]}]}.
